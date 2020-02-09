@@ -60,7 +60,7 @@ Together: 287KB/79KB
   - ɵdid - directiveDefinition
   - ɵccf - createComponentFactory
 
-3. Modules
+### *.module.ngfactory.ts
   - ɵcmf - createNgModuleFactory
   - ɵmod - module definition
   - ɵmpd - moduleProvideDef
