@@ -55,7 +55,7 @@ Together: 287KB/79KB
   - dynamic part of the template: data binding - Run every change detection part
   - ɵcrt - createRendererType2
   - ɵvid - viewDefinition
-  - ɵeld - elementDefinition
+  - ɵeld - elementDefinition - index to how many nested (performance, better than nested lists)
   - ɵted - textDefinition
   - ɵdid - directiveDefinition
   - ɵccf - createComponentFactory
