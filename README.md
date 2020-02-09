@@ -37,3 +37,30 @@ Together: 287KB/79KB
 | Vendor   | 1.88MB/325KB        | 215KB/55KB          |
 | Compiler | 1.01MB/167KB        | -                   |
 | Total    | 2.12MB/37/KB        | 286KB/79KB          |
+
+
+## Compiling
+
+- run `npm run compile`
+- NOTE: these cases only happen in production mode
+
+### *.component.ngfactory.ts
+
+1. Styles
+  - %COMP%
+ 
+2. View_AppComponent_0
+  - `return` part corresponds to the part inside the template
+  - static part of the template: `h1`, newlines, text in the template - Run once
+  - dynamic part of the template: data binding - Run every change detection part
+  - ɵcrt - createRendererType2
+  - ɵvid - viewDefinition
+  - ɵeld - elementDefinition
+  - ɵted - textDefinition
+  - ɵdid - directiveDefinition
+  - ɵccf - createComponentFactory
+
+3. Modules
+  - ɵcmf - createNgModuleFactory
+  - ɵmod - module definition
+  - ɵmpd - moduleProvideDef
